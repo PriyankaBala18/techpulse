@@ -1,0 +1,69 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Next.js build files
+.next/
+**/.next/
+out/
+**/out/
+
+# Build and test output
+dist/
+**/dist/
+build/
+coverage/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+**/env/
+
+# Python generated files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Test and cache files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Local Python environment configuration
+.python-version
